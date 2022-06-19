@@ -26,11 +26,8 @@ a:hover {
 a:visited {
   color: purple;
 }
-.email {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Verdana, sans-serif;
-  font-style: italic;
-  text-align: center;
+.platform {
+  color: var(--secondary-color);
 }
 
 .hero {
@@ -64,7 +61,7 @@ h3 {
 }
 
 .container {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 10%;
 }
 
@@ -94,4 +91,55 @@ h3 {
 
 .links {
   list-style: none;
+}
+
+#button {
+  border: var(--box-shadow);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#app {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.desc {
+  background: var(--accent-color);
+  padding: 40px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.intro,
+.jportintro {
+  text-align: center;
+  font-size: 25px;
+  margin: 30px;
+  color: #07060b;
+  padding: 30px;
+}
+
+#social {
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+  img {
+    display: none;
+  }
 }
