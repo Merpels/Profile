@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+  background-image: var(--gradient);
+  background-repeat: no-repeat;
+  min-height: calc(500px);
+}
+
+:root {
+  --primary-color: #c5aee2;
+  --secondary-color: #07060b;
+  --accent-color: #b3bde1;
+  --gradient: linear-gradient(to top, white 0%, #e3c5ea 100%);
+  --box-shadow: #394f85;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+.email {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.hero {
+  text-align: center;
+  font-family: "Verdana";
+  padding: 10%;
+  margin: 0 auto;
+  background: var(--accent-color);
+}
+
+.sr-only {
+  font-style: italic;
+}
+
+.contact-page {
+  font-style: italic;
+  padding: 20px;
+}
+
+.container {
+  padding-top: 10%;
+}
+
+.aboutme {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.myimage {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.poster {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts {
+  border: 2px solid var(--box-shadow);
+  width: 600px;
+  padding: 30px;
+  margin: 10px auto;
+}
+
+.links {
+  list-style: none;
+}
