@@ -35,10 +35,19 @@ a:visited {
 
 .hero {
   text-align: center;
-  font-family: "Verdana";
+  font-family: Verdana;
   padding: 10%;
   margin: 0 auto;
   background: var(--accent-color);
+  font-style: italic;
+}
+
+.hero h1 {
+  font-size: 100px;
+}
+
+h3 {
+  font-style: italic;
 }
 
 .sr-only {
@@ -50,8 +59,13 @@ a:visited {
   padding: 20px;
 }
 
+.projects {
+  padding-bottom: 10%;
+}
+
 .container {
   padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .aboutme {
